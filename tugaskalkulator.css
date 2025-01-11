@@ -1,0 +1,23 @@
+
+.text h1{
+    text-align: center;
+    color: rgb(81, 14, 91);
+}
+.container{
+    margin: auto;
+    /* border: 2px solid rgb(255, 0, 179); */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    grid: 50px;
+}
+.coll button{
+    padding: 50px;
+    border: 2px solid rgb(233, 147, 207);
+    border-radius: 30px;
+    background-color: rgba(137, 43, 226, 0.553);
+    color: rgb(254, 254, 254);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24pt;
+    font-weight: bold;
+}
