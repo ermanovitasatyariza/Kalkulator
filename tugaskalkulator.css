@@ -6,10 +6,12 @@
 .container{
     margin: auto;
     /* border: 2px solid rgb(255, 0, 179); */
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    /* grid-template-columns: auto auto auto auto; */
     justify-content: space-around;
-    grid: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* grid: 50px; */
 }
 .coll button{
     padding: 50px;
